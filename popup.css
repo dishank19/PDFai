@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  #selectedText {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #llmResponse {
+    margin-bottom: 10px;
+  }
+  
+  #questionInput {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #askButton {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

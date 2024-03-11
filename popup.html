@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PDF LLM Extension</title>
+  <title>SmAIrt PDF</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-  <h1>PDF LLM Extension</h1>
-  <p>Select text in a PDF to interact with the LLM.</p>
-  <!-- TODO: Add UI elements to display LLM responses and allow user interaction -->
+  <div id="selectedText"></div>
+  <div id="llmResponse">This is a placeholder for the LLM response.</div>
+  <input type="text" id="questionInput" placeholder="Ask a question">
+  <button id="askButton">Ask</button>
+  <script src="popup.js"></script>
 </body>
 </html>
